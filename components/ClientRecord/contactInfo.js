@@ -33,7 +33,7 @@ export default class ContactInfo extends Component {
       });
   }
 
-  // تغيير حالة وضع التعديل
+  // تغيير وضع التعديل
   editMode(mode) {
     this.setState({
       editMode: mode
