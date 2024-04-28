@@ -106,11 +106,11 @@ export default class App extends Component {
 
   render() {
     if (this.state.isLoading) {
-      // لم يتم الانتهاء من التحقق من التوكين بعد
+      // لم يتم الانتهاء من التحقق من التاكيد بعد
       return <LoadingScreen />;
     }
 
-    // تحديد قيمة السياق للمستخدم المسجل الحالي
+    // تحديد للمستخدم المسجل الحالي
     const value = {
       logOutUser: this.logOut,
       logInUser: this.logIn,
