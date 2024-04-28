@@ -29,7 +29,7 @@ export default class Register extends Component {
         console.log(this.state.email)
         let email = this.state.email
         auth.sendPasswordResetEmail(email).then( () => {
-            // Email sent.
+            // Email sent
                this.setState({
                 errorMessage: "Please check email, then login once the password has been changed",
                 loading: true

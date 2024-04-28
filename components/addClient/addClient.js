@@ -601,7 +601,7 @@ const styles = StyleSheet.create({
     alignItems: 'center',
         color: 'white',
         flex: 1,
-        // marginBottom: 25,
+        // marginBottom:25,
         width: "100%",
 
         

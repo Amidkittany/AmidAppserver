@@ -38,7 +38,7 @@ handleSignUp(){
         // Handle Errors here.
         // var errorCode = error.code;
         // var errorMessage = error.message;
-        // ...
+        // .
         
         this.setState({
             errorMessage: error.message,

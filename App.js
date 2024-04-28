@@ -22,10 +22,10 @@ import { NavigationContainer  } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import * as firebase from 'firebase';
-import { AuthContext } from './components/Context/context'
+import { AuthContext } from './components/Context/context '
 // import {YellowBox} from 'react-native';
 
-// تهيئة Firebase
+// Firebase
 if(!firebase.apps.length){
   firebase.initializeApp(firebaseConfig);
 }

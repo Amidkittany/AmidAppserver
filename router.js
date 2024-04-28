@@ -7,4 +7,4 @@ productRouter.post('/createProduct' , createProduct )
 productRouter.get('/getProductCategories' , getProductCategories )
 productRouter.delete('/deleteProducte' , deleteProducte )
 
-module.exports = productRouter
+module.exports = productRouter 

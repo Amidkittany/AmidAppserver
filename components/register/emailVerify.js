@@ -25,10 +25,10 @@ export default class EmailVerify extends Component {
         
         firebase.auth().onAuthStateChanged(function(user) {
             if (user) {
-              // User is signed in.
+              // User is signed in
               console.log(user.emailVerified)
             } else {
-              // No user is signed in.
+              // No user is signed in
               this.setState({
 
                         errorMessage: "Email is not verified"
